@@ -13,7 +13,7 @@ class Listing(models.Model):
     price = models.IntegerField()
     bedrooms = models.IntegerField()
     bathrooms = models.DecimalField(max_digits=2, decimal_places=1)
-    clubhouse = models.IntegerField(default=0)
+    clubhouse = models.IntegerField()
     sqft = models.IntegerField()
     estate_size = models.FloatField(default=0.0)
     is_published = models.BooleanField(default=True)
