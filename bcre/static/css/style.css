@@ -15,7 +15,7 @@ img {
   margin-right: 0.4rem; }
 
 #showcase {
-  background-image: url(../img/showcase.jpg);
+  background-image: url(ststic/img/showcase.jpg) no-repeat
   position: relative;
   min-height: 650px;
   color: #fff;
@@ -34,7 +34,7 @@ img {
     background: rgba(51, 51, 51, 0.8); }
 
 #services {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background: url(../img/building.jpg) no-repeat 
   min-height: 300px;
   position: relative;
   overflow: hidden; }
@@ -48,7 +48,7 @@ img {
     background: rgba(32, 134, 107, 0.8); }
 
 #showcase-inner {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background: url(../img/building.jpg) no-repeat 
   position: relative;
   overflow: hidden;
   min-height: 200px; }
@@ -75,6 +75,7 @@ img {
     #showcase h1 {
       font-size: 40px; }
   .hide-md-down {
+
     display: none; } }
 
 @media (max-width: 768px) {
